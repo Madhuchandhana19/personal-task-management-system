@@ -9,3 +9,4 @@ import com.examly.springapp.model.User;
 public interface UserRepository extends JpaRepository<User,Long> {
     
 }
+    
