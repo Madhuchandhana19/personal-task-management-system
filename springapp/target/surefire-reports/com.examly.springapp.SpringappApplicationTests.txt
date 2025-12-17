@@ -1,86 +1,70 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 78, Failures: 27, Errors: 1, Skipped: 0, Time elapsed: 4.277 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
-com.examly.springapp.SpringappApplicationTests.Day6_testGetTaskById_StatusNotFound  Time elapsed: 0.041 s  <<< FAILURE!
-java.lang.AssertionError: Response content expected:<Task not found with id 123> but was:<>
-	at com.examly.springapp.SpringappApplicationTests.Day6_testGetTaskById_StatusNotFound(SpringappApplicationTests.java:487)
-
-com.examly.springapp.SpringappApplicationTests.Day8_test_TaskAssignmentService_File_Exists  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_TaskAssignmentService_File_Exists(SpringappApplicationTests.java:737)
-
-com.examly.springapp.SpringappApplicationTests.Day8_test_TaskAssignmentServiceImpl_File_Exists  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_TaskAssignmentServiceImpl_File_Exists(SpringappApplicationTests.java:773)
-
-com.examly.springapp.SpringappApplicationTests.Day8_testAddUser  Time elapsed: 0.078 s  <<< FAILURE!
-java.lang.AssertionError: Status expected:<201> but was:<200>
-	at com.examly.springapp.SpringappApplicationTests.Day8_testAddUser(SpringappApplicationTests.java:792)
-
-com.examly.springapp.SpringappApplicationTests.Day8_testGetUserById  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.AssertionError: No value at JSON path "$.name"
-	at com.examly.springapp.SpringappApplicationTests.Day8_testGetUserById(SpringappApplicationTests.java:815)
-Caused by: java.lang.IllegalArgumentException: json can not be null or empty
-	at com.examly.springapp.SpringappApplicationTests.Day8_testGetUserById(SpringappApplicationTests.java:815)
-
-com.examly.springapp.SpringappApplicationTests.Day8_testUpdateUser  Time elapsed: 0.008 s  <<< FAILURE!
-java.lang.AssertionError: Status expected:<200> but was:<405>
-	at com.examly.springapp.SpringappApplicationTests.Day8_testUpdateUser(SpringappApplicationTests.java:828)
-
-com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageNumberApplied  Time elapsed: 0.007 s  <<< FAILURE!
+Tests run: 78, Failures: 23, Errors: 1, Skipped: 0, Time elapsed: 3.406 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageNumberApplied  Time elapsed: 0.006 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageNumberApplied(SpringappApplicationTests.java:842)
 
-com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageSizeApplied  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageSizeApplied  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPaginationPageSizeApplied(SpringappApplicationTests.java:851)
 
-com.examly.springapp.SpringappApplicationTests.Day9_testPaginationContentArrayExists  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day9_testPaginationContentArrayExists  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPaginationContentArrayExists(SpringappApplicationTests.java:860)
 
-com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalElementsExists  Time elapsed: 0.006 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalElementsExists  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalElementsExists(SpringappApplicationTests.java:869)
 
-com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalPagesExists  Time elapsed: 0.005 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalPagesExists  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPaginationTotalPagesExists(SpringappApplicationTests.java:878)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testGetTaskById  Time elapsed: 0.006 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testAddTask  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<201>
+	at com.examly.springapp.SpringappApplicationTests.Day10_testAddTask(SpringappApplicationTests.java:892)
+
+com.examly.springapp.SpringappApplicationTests.Day10_testGetAllTasks  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$[0].title"
+	at com.examly.springapp.SpringappApplicationTests.Day10_testGetAllTasks(SpringappApplicationTests.java:906)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.examly.springapp.SpringappApplicationTests.Day10_testGetAllTasks(SpringappApplicationTests.java:906)
+
+com.examly.springapp.SpringappApplicationTests.Day10_testGetTaskById  Time elapsed: 0.004 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetTaskById(SpringappApplicationTests.java:918)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testUpdateTaskStatus  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testUpdateTaskStatus  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testUpdateTaskStatus(SpringappApplicationTests.java:932)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testGetTasksByUser  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testGetTasksByUser  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetTasksByUser(SpringappApplicationTests.java:942)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testAddStatusLog  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testAddStatusLog  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testAddStatusLog(SpringappApplicationTests.java:957)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testGetAllStatusLogs  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testGetAllStatusLogs  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetAllStatusLogs(SpringappApplicationTests.java:969)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testGetStatusLogById  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testGetStatusLogById  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetStatusLogById(SpringappApplicationTests.java:981)
 
-com.examly.springapp.SpringappApplicationTests.Day10_testGetLogsByTask  Time elapsed: 0.005 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day10_testGetLogsByTask  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetLogsByTask(SpringappApplicationTests.java:994)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetUsersByRole  Time elapsed: 0.006 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetUsersByRole  Time elapsed: 0.022 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetUsersByRole(SpringappApplicationTests.java:1009)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus  Time elapsed: 0.036 s  <<< ERROR!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus  Time elapsed: 0.016 s  <<< ERROR!
 jakarta.servlet.ServletException: Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [PRIMARY]
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus(SpringappApplicationTests.java:1022)
 Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [PRIMARY]
@@ -90,35 +74,35 @@ Caused by: org.hibernate.exception.ConstraintViolationException: could not execu
 Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'PRIMARY'
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus(SpringappApplicationTests.java:1022)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetStatusLogsByOldStatus_NotFound  Time elapsed: 0.005 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetStatusLogsByOldStatus_NotFound  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<204> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetStatusLogsByOldStatus_NotFound(SpringappApplicationTests.java:1046)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUserId_NotFound  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUserId_NotFound  Time elapsed: 0.008 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<204> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUserId_NotFound(SpringappApplicationTests.java:1058)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUser_Positive  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUser_Positive  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<204> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUser_Positive(SpringappApplicationTests.java:1069)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus_NotFound  Time elapsed: 0.006 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus_NotFound  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<404> but was:<400>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus_NotFound(SpringappApplicationTests.java:1080)
 
-com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists(SpringappApplicationTests.java:1088)
 
-com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists  Time elapsed: 0.003 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists(SpringappApplicationTests.java:1094)
 
-com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists  Time elapsed: 0.003 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists(SpringappApplicationTests.java:1101)
 
-com.examly.springapp.SpringappApplicationTests.Day15_testAOPLogFileExists  Time elapsed: 0.002 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day15_testAOPLogFileExists  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day15_testAOPLogFileExists(SpringappApplicationTests.java:1108)
 

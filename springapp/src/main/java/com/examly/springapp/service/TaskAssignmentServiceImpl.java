@@ -5,9 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.examly.springapp.model.TaskStatusLog;
-import com.examly.springapp.repository.TaskStatusLogRepository;
+import com.examly.springapp.model.TaskAssignment;
+import com.examly.springapp.repository.TaskAssignmentRepository;
 
-public class TaskStatusLogServiceImpl  {
+@Service
+public class TaskAssignmentServiceImpl {
 
+   
 }
