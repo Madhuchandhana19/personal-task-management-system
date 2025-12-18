@@ -55,4 +55,9 @@ public class UserController {
         }
         return new ResponseEntity<>(updatedUser, HttpStatus.OK);
     }
+    @GetMapping("/role/{role}")
+    public ResponseEntity<List<User>> getUsersByRole(@PathVariable String role) {
+        List<User> users = userService.getUsersByRole(role);
+        return ResponseEntity.ok(users);
+    }
 }

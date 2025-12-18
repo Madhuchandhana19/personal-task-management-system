@@ -31,4 +31,7 @@ public class UserService {
         user.setUserId(id);
         return userRepository.save(user);
     }
+    public List<User> getUsersByRole(String role) {
+        return userRepository.findByRole(role);
+    }
 }
