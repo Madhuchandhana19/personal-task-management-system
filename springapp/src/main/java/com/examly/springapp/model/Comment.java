@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 public class Comment {
+
     @Id
     private int commentId;
 
@@ -21,5 +22,4 @@ public class Comment {
     public void setCommentId(int commentId) {
         this.commentId = commentId;
     }
-    
 }
