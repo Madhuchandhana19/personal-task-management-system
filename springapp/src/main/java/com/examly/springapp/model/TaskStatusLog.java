@@ -1,4 +1,5 @@
 package com.examly.springapp.model;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.*;
 import java.util.Date;
@@ -16,6 +17,18 @@ public class TaskStatusLog {
     private String oldStatus;
     private String newStatus;
     private Date changeDate;
+    
+    public Task getTask() {
+    return this.taskId;
+    }
+
+    @JsonProperty("task")
+    public void setTask(Task task) {
+        this.taskId = task;
+    }
+    public int getId() {
+        return this.statusLogId;
+    }
 
     public TaskStatusLog() {
     }

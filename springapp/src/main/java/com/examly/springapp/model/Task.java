@@ -2,9 +2,19 @@ package com.examly.springapp.model;
 
 import java.util.Date;
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 public class Task {
+    
+public long getId() {
+    return this.taskId;
+}
+
+@JsonProperty("id")
+public void setId(long id) {
+    this.taskId = id;
+}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
