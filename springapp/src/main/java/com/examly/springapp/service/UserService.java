@@ -1,5 +1,6 @@
 package com.examly.springapp.service;
-
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -34,4 +35,10 @@ public class UserService {
     public List<User> getUsersByRole(String role) {
         return userRepository.findByRole(role);
     }
+    
+
+    public Page<User> getUsersWithPagination(int page, int size) {
+        return userRepository.findAll(PageRequest.of(page, size));
+    }
+
 }

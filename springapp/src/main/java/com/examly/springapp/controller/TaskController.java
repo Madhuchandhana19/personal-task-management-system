@@ -27,7 +27,7 @@ public class TaskController {
         user.setUserId(1); 
         task.setAssignedTo(user);
     }
-        return new ResponseEntity<>(taskService.createTask(task), HttpStatus.CREATED);
+        return new ResponseEntity<>(taskService.createTask(task), HttpStatus.OK);
     }
 
     @GetMapping

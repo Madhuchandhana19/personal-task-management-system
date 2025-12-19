@@ -1,5 +1,5 @@
 package com.examly.springapp.controller;
-
+import org.springframework.data.domain.Page;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
@@ -60,4 +60,15 @@ public class UserController {
         List<User> users = userService.getUsersByRole(role);
         return ResponseEntity.ok(users);
     }
+    
+
+    @GetMapping("/page/{page}/{size}")
+    public ResponseEntity<Page<User>> getUsersWithPagination(
+        @PathVariable int page,
+        @PathVariable int size) {
+
+        Page<User> usersPage = userService.getUsersWithPagination(page, size);
+        return ResponseEntity.ok(usersPage);
+    }
+
 }

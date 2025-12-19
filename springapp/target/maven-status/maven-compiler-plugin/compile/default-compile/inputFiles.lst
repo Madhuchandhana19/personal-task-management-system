@@ -7,6 +7,7 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/service/TaskServiceImpl.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/service/TaskStatusLogService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/TaskStatusLogController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/exception/GlobalExceptionHandler.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/service/TaskAssignmentService.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/CommentRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/User.java
