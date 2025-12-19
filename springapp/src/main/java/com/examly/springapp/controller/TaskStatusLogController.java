@@ -71,6 +71,20 @@ public ResponseEntity<List<TaskStatusLog>> getLogsByTask(@PathVariable long task
 
     return new ResponseEntity<>(logs, HttpStatus.OK);
 }
+@GetMapping("/old/{oldStatus}")
+public ResponseEntity<?> getLogsByOldStatus(@PathVariable String oldStatus) {
+
+    List<TaskStatusLog> logs = taskStatusLogService.getLogsByOldStatus(oldStatus);
+
+    if (logs == null || logs.isEmpty()) {
+        return ResponseEntity
+                .status(HttpStatus.NO_CONTENT)
+                .body("No logs found with oldStatus: " + oldStatus);
+    }
+
+    return ResponseEntity.ok(logs);
+}
+
 
 
 

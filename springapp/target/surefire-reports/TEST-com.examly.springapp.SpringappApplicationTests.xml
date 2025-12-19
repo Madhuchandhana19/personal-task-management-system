@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="3.648" tests="78" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="3.996" tests="78" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter2386570590062300106.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-19T03-38-01_076-jvmRun1 surefire10283114304062367607tmp surefire_013345804319279041362tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter18181703661989039118.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-19T03-57-32_057-jvmRun1 surefire12981673143129413272tmp surefire_012113724037786759140tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.0.1/spring-boot-starter-data-jpa-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.0.1/spring-boot-starter-aop-3.0.1.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.0.1/spring-boot-starter-jdbc-3.0.1.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.0.3/spring-jdbc-6.0.3.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.1.6.Final/hibernate-core-6.1.6.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.2.Final/hibernate-commons-annotations-6.0.2.Final.jar:/home/coder/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/1.0.0/angus-activation-1.0.0.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.0.0/spring-data-jpa-3.0.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.0.0/spring-data-commons-3.0.0.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.0.3/spring-orm-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.0.3/spring-context-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.0.3/spring-tx-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.0.3/spring-aspects-6.0.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.1/spring-boot-starter-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.0.1/spring-boot-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.1/spring-boot-autoconfigure-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.1/spring-boot-starter-logging-3.0.1.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.6/jul-to-slf4j-2.0.6.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.0.3/spring-core-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.0.1/spring-boot-starter-web-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.1/spring-boot-starter-json-3.0.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.1/jackson-module-parameter-names-2.14.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.0.1/spring-boot-starter-tomcat-3.0.1.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.4/tomcat-embed-core-10.1.4.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.4/tomcat-embed-el-10.1.4.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.4/tomcat-embed-websocket-10.1.4.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.10.2/micrometer-observation-1.10.2.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.10.2/micrometer-commons-1.10.2.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.0.1/spring-boot-devtools-3.0.1.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar:/home/coder/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.0.1/spring-boot-starter-test-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.0.1/spring-boot-test-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.0.1/spring-boot-test-autoconfigure-3.0.1.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.1/mockito-junit-jupiter-4.8.1.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.0.3/spring-test-6.0.3.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-mail/2.6.3/spring-boot-starter-mail-2.6.3.jar:/home/coder/.m2/repository/org/springframework/spring-context-support/6.0.3/spring-context-support-6.0.3.jar:/home/coder/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/home/coder/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/home/coder/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.12.20/byte-buddy-1.12.20.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.20/byte-buddy-agent-1.12.20.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/coder/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter2386570590062300106.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter18181703661989039118.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -48,7 +48,7 @@
     <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="7510"/>
+    <property name="PID" value="19674"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -59,15 +59,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.111">
-    <system-out><![CDATA[03:38:01.778 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringappApplicationTests]: using SpringBootContextLoader
-03:38:01.781 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.examly.springapp.SpringappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-03:38:01.782 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-03:38:01.810 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SpringappApplicationTests]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
-03:38:01.853 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/SpringappApplication.class]
-03:38:01.854 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
-03:38:01.912 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SpringappApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
-03:38:01.913 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SpringappApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.131">
+    <system-out><![CDATA[03:57:32.785 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringappApplicationTests]: using SpringBootContextLoader
+03:57:32.788 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.examly.springapp.SpringappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+03:57:32.789 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:57:32.817 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SpringappApplicationTests]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+03:57:32.864 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/SpringappApplication.class]
+03:57:32.865 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
+03:57:32.929 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SpringappApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+03:57:32.930 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SpringappApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,18 +77,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
-2025-12-19T03:38:02.098Z  INFO 7510 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 7510 (started by coder in /home/coder/project/workspace/springapp)
-2025-12-19T03:38:02.100Z  INFO 7510 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-12-19T03:38:02.545Z  INFO 7510 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-19T03:38:02.590Z  INFO 7510 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
-2025-12-19T03:38:02.865Z  INFO 7510 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-19T03:38:02.893Z  INFO 7510 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
-2025-12-19T03:38:02.985Z  WARN 7510 --- [           main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2025-12-19T03:38:03.060Z  INFO 7510 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-19T03:38:03.226Z  INFO 7510 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57c69937
-2025-12-19T03:38:03.228Z  INFO 7510 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-19T03:38:03.242Z  INFO 7510 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2025-12-19T03:38:03.242Z  WARN 7510 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-19T03:57:33.147Z  INFO 19674 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 19674 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-19T03:57:33.148Z  INFO 19674 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T03:57:33.741Z  INFO 19674 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T03:57:33.788Z  INFO 19674 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+2025-12-19T03:57:34.084Z  INFO 19674 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19T03:57:34.110Z  INFO 19674 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-12-19T03:57:34.212Z  WARN 19674 --- [           main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-12-19T03:57:34.295Z  INFO 19674 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-19T03:57:34.407Z  INFO 19674 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10131289
+2025-12-19T03:57:34.409Z  INFO 19674 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-19T03:57:34.421Z  INFO 19674 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-19T03:57:34.421Z  WARN 19674 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
 Hibernate: alter table task drop foreign key FKcprx52d891r6afk3sr5uaxcxr
 Hibernate: alter table task_status_log drop foreign key FKot5pfi5s7m3wq6xvkmy9oj7gy
 Hibernate: drop table if exists comment
@@ -103,103 +103,103 @@ Hibernate: create table task_status_log (status_log_id integer not null auto_inc
 Hibernate: create table user (user_id bigint not null auto_increment, email varchar(255), name varchar(255), role varchar(255), primary key (user_id)) engine=InnoDB
 Hibernate: alter table task add constraint FKcprx52d891r6afk3sr5uaxcxr foreign key (assigned_to_user_id) references user (user_id)
 Hibernate: alter table task_status_log add constraint FKot5pfi5s7m3wq6xvkmy9oj7gy foreign key (task_id_task_id) references task (task_id)
-2025-12-19T03:38:03.866Z  INFO 7510 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-12-19T03:38:03.871Z  INFO 7510 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-19T03:38:04.247Z  WARN 7510 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-19T03:38:04.472Z  INFO 7510 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-12-19T03:38:04.472Z  INFO 7510 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-12-19T03:38:04.474Z  INFO 7510 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-12-19T03:38:04.490Z  INFO 7510 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 2.553 seconds (process running for 3.227)
+2025-12-19T03:57:35.089Z  INFO 19674 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-19T03:57:35.095Z  INFO 19674 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T03:57:35.636Z  WARN 19674 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T03:57:35.904Z  INFO 19674 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-19T03:57:35.904Z  INFO 19674 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-19T03:57:35.906Z  INFO 19674 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-12-19T03:57:35.925Z  INFO 19674 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 2.964 seconds (process running for 3.647)
 ]]></system-out>
   </testcase>
   <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day4_test_TaskModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_UserModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_UserModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day4_test_TaskStatusLog_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_TaskAssignment_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_TaskAssignment_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day4_test_Comment_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_User_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_testTaskRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day4_test_User_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_testTaskRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_testUserRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day5_testTaskStatusLogRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_testTaskStatusLogRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_testTaskAssignmentRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day5_testCommentRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_UserRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day5_test_TaskRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_test_UserRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day5_test_TaskRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_TaskStatusLogRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_TaskAssignmentRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_CommentRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_UserController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskStatusLogController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskAssignmentController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_CommentController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_UserController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_TaskController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_TaskController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_testGetAllUsers_StatusNoCotent" classname="com.examly.springapp.SpringappApplicationTests" time="0.112">
+  <testcase name="Day5_test_CommentRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_UserController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskStatusLogController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskAssignmentController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_CommentController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_UserController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_TaskController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.009"/>
+  <testcase name="Day6_test_TaskController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_testGetAllUsers_StatusNoCotent" classname="com.examly.springapp.SpringappApplicationTests" time="0.098">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testGetTaskById_StatusNotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.024">
+  <testcase name="Day6_testGetTaskById_StatusNotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.022">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 ]]></system-out>
   </testcase>
   <testcase name="Day7_test_TaskController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day7_test_TaskController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day7_test_UserController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day7_test_CommentController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_TaskController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_UserController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day7_test_CommentController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day7_test_UserController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day7_test_CommentController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day7_test_TaskAssignment_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day8_test_TaskService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_TaskService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day8_test_TaskStatusLogService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_TaskAssignmentService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day8_test_CommentService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day8_test_TaskServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_TaskServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_UserServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day8_test_TaskStatusLogServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day8_test_TaskAssignmentServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_TaskAssignmentServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day8_test_CommentServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day8_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.102">
+  <testcase name="Day8_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.092">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 Hibernate: insert into user (email, name, role) values (?, ?, ?)
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+  <testcase name="Day8_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+  <testcase name="Day8_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.144">
+  <testcase name="Day8_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.032">
     <system-out><![CDATA[Hibernate: select count(*) from user u1_0 where u1_0.user_id=?
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 Hibernate: update user set email=?, name=?, role=? where user_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPaginationPageNumberApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.022">
+  <testcase name="Day9_testPaginationPageNumberApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.019">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 limit ?,?
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPaginationPageSizeApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+  <testcase name="Day9_testPaginationPageSizeApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 limit ?,?
 Hibernate: select count(u1_0.user_id) from user u1_0
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPaginationContentArrayExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+  <testcase name="Day9_testPaginationContentArrayExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 limit ?,?
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPaginationTotalElementsExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+  <testcase name="Day9_testPaginationTotalElementsExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 limit ?,?
 ]]></system-out>
   </testcase>
@@ -207,302 +207,71 @@ Hibernate: select count(u1_0.user_id) from user u1_0
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 limit ?,?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddTask" classname="com.examly.springapp.SpringappApplicationTests" time="0.019">
+  <testcase name="Day10_testAddTask" classname="com.examly.springapp.SpringappApplicationTests" time="0.016">
     <system-out><![CDATA[Hibernate: insert into task (assigned_to_user_id, description, due_date, priority, status, title) values (?, ?, ?, ?, ?, ?)
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllTasks" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+  <testcase name="Day10_testGetAllTasks" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,t1_0.assigned_to_user_id,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetTaskById" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+  <testcase name="Day10_testGetTaskById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testUpdateTaskStatus" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
+  <testcase name="Day10_testUpdateTaskStatus" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 Hibernate: update task set assigned_to_user_id=?, description=?, due_date=?, priority=?, status=?, title=? where task_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetTasksByUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
+  <testcase name="Day10_testGetTasksByUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,t1_0.assigned_to_user_id,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 where t1_0.assigned_to_user_id=?
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddStatusLog" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+  <testcase name="Day10_testAddStatusLog" classname="com.examly.springapp.SpringappApplicationTests" time="0.016">
     <system-out><![CDATA[Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 Hibernate: insert into task_status_log (change_date, new_status, old_status, task_id_task_id) values (?, ?, ?, ?)
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllStatusLogs" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+  <testcase name="Day10_testGetAllStatusLogs" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
     <system-out><![CDATA[Hibernate: select t1_0.status_log_id,t1_0.change_date,t1_0.new_status,t1_0.old_status,t1_0.task_id_task_id from task_status_log t1_0
 Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetStatusLogById" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day10_testGetStatusLogById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <system-out><![CDATA[Hibernate: select t1_0.status_log_id,t1_0.change_date,t1_0.new_status,t1_0.old_status,t2_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t2_0.description,t2_0.due_date,t2_0.priority,t2_0.status,t2_0.title from task_status_log t1_0 left join task t2_0 on t2_0.task_id=t1_0.task_id_task_id left join user a1_0 on a1_0.user_id=t2_0.assigned_to_user_id where t1_0.status_log_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetLogsByTask" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+  <testcase name="Day10_testGetLogsByTask" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
     <system-out><![CDATA[Hibernate: select t1_0.status_log_id,t1_0.change_date,t1_0.new_status,t1_0.old_status,t1_0.task_id_task_id from task_status_log t1_0 where t1_0.task_id_task_id=?
 Hibernate: select t1_0.task_id,a1_0.user_id,a1_0.email,a1_0.name,a1_0.role,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 left join user a1_0 on a1_0.user_id=t1_0.assigned_to_user_id where t1_0.task_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetUsersByRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day12_testGetUsersByRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <system-out><![CDATA[Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.role=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetTasksByStatus" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus(SpringappApplicationTests.java:1033)
-]]></failure>
+  <testcase name="Day12_testGetTasksByStatus" classname="com.examly.springapp.SpringappApplicationTests" time="0.022">
     <system-out><![CDATA[Hibernate: insert into task (assigned_to_user_id, description, due_date, priority, status, title) values (?, ?, ?, ?, ?, ?)
-
-MockHttpServletRequest:
-      HTTP Method = POST
-      Request URI = /api/tasks
-       Parameters = {}
-          Headers = [Content-Type:"application/json;charset=UTF-8", Accept:"application/json", Content-Length:"150"]
-             Body = { "title": "JPQL Task", "description": "Task for JPQL test", "priority": "HIGH", "status": "OPEN", "dueDate": "2025-12-20", "createdBy": { "id": 1 } }
-    Session Attrs = {}
-
-Handler:
-             Type = com.examly.springapp.controller.TaskController
-           Method = com.examly.springapp.controller.TaskController#createTask(Task)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 200
-    Error message = null
-          Headers = [Content-Type:"application/json"]
-     Content type = application/json
-             Body = {"taskId":2,"title":"JPQL Task","description":"Task for JPQL test","status":"OPEN","priority":"HIGH","dueDate":"2025-12-20T00:00:00.000+00:00","assignedTo":{"userId":1,"name":null,"email":null,"role":null},"id":2}
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /api/tasks/status/OPEN
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+Hibernate: select t1_0.task_id,t1_0.assigned_to_user_id,t1_0.description,t1_0.due_date,t1_0.priority,t1_0.status,t1_0.title from task t1_0 where t1_0.status=?
+Hibernate: select u1_0.user_id,u1_0.email,u1_0.name,u1_0.role from user u1_0 where u1_0.user_id=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetStatusLogsByOldStatus_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetStatusLogsByOldStatus_NotFound(SpringappApplicationTests.java:1046)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /api/status-logs/old/Completed
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+  <testcase name="Day12_testGetStatusLogsByOldStatus_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+    <system-out><![CDATA[Hibernate: select t1_0.status_log_id,t1_0.change_date,t1_0.new_status,t1_0.old_status,t1_0.task_id_task_id from task_status_log t1_0 where t1_0.old_status=?
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetAssignmentsByUserId_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUserId_NotFound(SpringappApplicationTests.java:1058)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /api/assignments/user/9999
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+  <testcase name="Day12_testGetAssignmentsByUserId_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+    <system-out><![CDATA[Hibernate: select t1_0.task_id from task_assignment t1_0
 ]]></system-out>
   </testcase>
   <testcase name="Day12_testGetAssignmentsByUser_Positive" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<404>
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAssignmentsByUser_Positive(SpringappApplicationTests.java:1069)
-]]></failure>
-    <system-out><![CDATA[
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /api/assignments/user/1
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = null
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 404
-    Error message = null
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
+    <system-out><![CDATA[Hibernate: select t1_0.task_id from task_assignment t1_0
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetTasksByStatus_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
-    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<404> but was:<400>
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetTasksByStatus_NotFound(SpringappApplicationTests.java:1080)
-]]></failure>
-    <system-out><![CDATA[2025-12-19T03:38:05.320Z  WARN 7510 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; For input string: "status"]
-
-MockHttpServletRequest:
-      HTTP Method = GET
-      Request URI = /api/tasks/status
-       Parameters = {}
-          Headers = [Accept:"application/json"]
-             Body = null
-    Session Attrs = {}
-
-Handler:
-             Type = com.examly.springapp.controller.TaskController
-           Method = com.examly.springapp.controller.TaskController#getTaskById(long)
-
-Async:
-    Async started = false
-     Async result = null
-
-Resolved Exception:
-             Type = org.springframework.web.method.annotation.MethodArgumentTypeMismatchException
-
-ModelAndView:
-        View name = null
-             View = null
-            Model = null
-
-FlashMap:
-       Attributes = null
-
-MockHttpServletResponse:
-           Status = 400
-    Error message = null
-          Headers = []
-     Content type = null
-             Body = 
-    Forwarded URL = null
-   Redirected URL = null
-          Cookies = []
-]]></system-out>
-  </testcase>
+  <testcase name="Day12_testGetTasksByStatus_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day13_test_execption_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day13_test_GloabalEception_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>

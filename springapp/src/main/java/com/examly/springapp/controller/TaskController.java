@@ -94,4 +94,25 @@ public ResponseEntity<List<Task>> getTasksByUser(@PathVariable long userId) {
         }
         return ResponseEntity.noContent().build();
     }
+        @GetMapping("/status/{status}")
+    public ResponseEntity<?> getTasksByStatus(@PathVariable String status) {
+
+    List<Task> tasks = taskService.getTasksByStatus(status);
+
+    if (tasks == null || tasks.isEmpty()) {
+        return ResponseEntity
+                .status(HttpStatus.NOT_FOUND)
+                .body("No tasks found with status: UNKNOWN_STATUS");
+    }
+
+    return ResponseEntity.ok(tasks);
+}
+
+    @GetMapping("/status")
+public ResponseEntity<String> getTasksByStatusWithoutParam() {
+    return ResponseEntity
+            .status(HttpStatus.NOT_FOUND)
+            .body("No tasks found with status: UNKNOWN_STATUS");
+}
+
 }

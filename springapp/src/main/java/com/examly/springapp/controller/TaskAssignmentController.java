@@ -10,7 +10,8 @@ import com.examly.springapp.model.TaskAssignment;
 import com.examly.springapp.service.TaskAssignmentService;
 
 @RestController
-@RequestMapping("/api/taskassignments")
+@RequestMapping("/api/assignments")
+
 public class TaskAssignmentController {
 
     @Autowired
@@ -26,4 +27,20 @@ public class TaskAssignmentController {
         }
         return new ResponseEntity<>(null,HttpStatus.NOT_FOUND);
     }
+@GetMapping("/user/{userId}")
+public ResponseEntity<?> getAssignmentsByUser(@PathVariable int userId) {
+
+    List<TaskAssignment> assignments =
+            taskAssignmentService.getAssignmentsByUserId(userId);
+
+    if (assignments == null || assignments.isEmpty()) {
+        return ResponseEntity
+                .status(HttpStatus.NO_CONTENT)
+                .body("No assignments found for user id: " + userId);
+    }
+
+    return ResponseEntity.noContent().build();
+}
+
+
 }

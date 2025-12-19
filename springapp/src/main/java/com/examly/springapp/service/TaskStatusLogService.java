@@ -35,6 +35,9 @@ public class TaskStatusLogService {
     public List<TaskStatusLog> getLogsByTask(long taskId) {
         return taskStatusRepo.findByTaskIdTaskId(taskId);
     }
-    
+    public List<TaskStatusLog> getLogsByOldStatus(String oldStatus) {
+        return taskStatusRepo.findByOldStatus(oldStatus);
+    }
+
 
 }

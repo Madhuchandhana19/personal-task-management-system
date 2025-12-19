@@ -46,5 +46,9 @@ public class TaskService {
     public List<Task> getTasksByUser(long userId) {
     return taskRepo.findByAssignedTo_UserId(userId);
 }
+    public List<Task> getTasksByStatus(String status) {
+    return taskRepo.findByStatus(status);
+    }
+
 
 }
