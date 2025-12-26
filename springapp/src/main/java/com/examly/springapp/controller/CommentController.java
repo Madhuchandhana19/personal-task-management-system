@@ -6,6 +6,7 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import com.examly.springapp.model.Comment;
 import com.examly.springapp.service.CommentService;
+import com.examly.springapp.service.CommentServiceImpl;
 
 @RestController
 @RequestMapping("/api/comments")

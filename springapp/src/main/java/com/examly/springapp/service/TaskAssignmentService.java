@@ -9,17 +9,10 @@ import com.examly.springapp.model.Task;
 import com.examly.springapp.model.TaskAssignment;
 import com.examly.springapp.repository.TaskAssignmentRepository;
 @Service
-public class TaskAssignmentService {
-    @Autowired
-    private TaskAssignmentRepository taskRepo;
-
-    public List<TaskAssignment> getAllTaskAssignments(){
-        return taskRepo.findAll();
-
-    }
-    public List<TaskAssignment> getAssignmentsByUserId(int userId) {
-        return taskRepo.findAll();
-    }
+public interface TaskAssignmentService {
+    List<TaskAssignment> getAllTaskAssignments();
+    List<TaskAssignment> getAssignmentsByUserId(int userId);
+    
 
 
 }

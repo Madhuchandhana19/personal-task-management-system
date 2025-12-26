@@ -8,37 +8,11 @@ import com.examly.springapp.model.User;
 import com.examly.springapp.repository.UserRepository;
 
 @Service
-public class UserService {
-
-    @Autowired
-    private UserRepository userRepository;
-
-    public User createUser(User user) {
-        return userRepository.save(user);
-    }
-
-    public List<User> getAllUsers() {
-        return userRepository.findAll();
-    }
-
-    public User getUserById(long id) {
-        return userRepository.findById(id).orElse(null);
-    }
-
-    public User updateUser(long id, User user) {
-        if (!userRepository.existsById(id)) {
-            return null;
-        }
-        user.setUserId(id);
-        return userRepository.save(user);
-    }
-    public List<User> getUsersByRole(String role) {
-        return userRepository.findByRole(role);
-    }
-    
-
-    public Page<User> getUsersWithPagination(int page, int size) {
-        return userRepository.findAll(PageRequest.of(page, size));
-    }
-
+public interface UserService {
+    User createUser(User user);
+    List<User> getAllUsers();
+    User getUserById(long id);
+    User updateUser(long id, User user);
+    List<User> getUsersByRole(String role);
+    Page<User> getUsersWithPagination(int page, int size);
 }

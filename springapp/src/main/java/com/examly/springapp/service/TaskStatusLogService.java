@@ -10,34 +10,12 @@ import com.examly.springapp.repository.TaskRepository;
 import com.examly.springapp.repository.TaskStatusLogRepository;
 
 @Service
-public class TaskStatusLogService {
-
-    @Autowired
-    private TaskStatusLogRepository taskStatusRepo;
-    @Autowired
-    private TaskRepository taskRepo;
-
+public interface TaskStatusLogService {
+    List<TaskStatusLog> getAllTaskStatusLogs();
+    TaskStatusLog getStatusLogById(int id);
+    TaskStatusLog addStatusLog(TaskStatusLog log, long taskId);
+    List<TaskStatusLog> getLogsByTask(long taskId);
+    List<TaskStatusLog> getLogsByOldStatus(String oldStatus);
     
-    public List<TaskStatusLog> getAllTaskStatusLogs() {
-        return taskStatusRepo.findAll();
-    }
-    public TaskStatusLog getStatusLogById(int id) {
-        return taskStatusRepo.findById(id).orElse(null);
-    }
-    public TaskStatusLog addStatusLog(TaskStatusLog log, long taskId) {
-        Task task = taskRepo.findById(taskId).orElse(null);
-        if (task == null) return null;
-
-        log.setTaskId(task);
-        return taskStatusRepo.save(log);
-    }
-
-    public List<TaskStatusLog> getLogsByTask(long taskId) {
-        return taskStatusRepo.findByTaskIdTaskId(taskId);
-    }
-    public List<TaskStatusLog> getLogsByOldStatus(String oldStatus) {
-        return taskStatusRepo.findByOldStatus(oldStatus);
-    }
-
-
-}
+    
+} 

@@ -7,16 +7,10 @@ import com.examly.springapp.model.Comment;
 import com.examly.springapp.repository.CommentRepository;
 
 @Service
-public class CommentService {
+public interface CommentService {
+    List<Comment> getAllComments();
+    Comment getCommentById(int id);
 
-    @Autowired
-    private CommentRepository commentRepository;
 
-    public List<Comment> getAllComments() {
-        return commentRepository.findAll();
-    }
-
-    public Comment getCommentById(int id) {
-        return commentRepository.findById(id).orElse(null);
-    }
+    
 }

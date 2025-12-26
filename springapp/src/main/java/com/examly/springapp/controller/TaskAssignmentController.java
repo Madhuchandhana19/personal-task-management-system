@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.examly.springapp.model.TaskAssignment;
 import com.examly.springapp.service.TaskAssignmentService;
+import com.examly.springapp.service.TaskAssignmentServiceImpl;
 
 @RestController
 @RequestMapping("/api/assignments")
