@@ -12,6 +12,7 @@ import com.examly.springapp.repository.TaskAssignmentRepository;
 public interface TaskAssignmentService {
     List<TaskAssignment> getAllTaskAssignments();
     List<TaskAssignment> getAssignmentsByUserId(int userId);
+    TaskAssignment creTaskAssignment(TaskAssignment assi);
     
 
 

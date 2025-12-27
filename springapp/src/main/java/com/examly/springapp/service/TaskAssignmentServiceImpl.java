@@ -20,5 +20,8 @@ public class TaskAssignmentServiceImpl implements TaskAssignmentService {
     public List<TaskAssignment> getAssignmentsByUserId(int userId) {
         return taskRepo.findAll();
     }
+    public TaskAssignment creTaskAssignment(TaskAssignment assi){
+        return taskRepo.save(assi);
+    }
    
 }

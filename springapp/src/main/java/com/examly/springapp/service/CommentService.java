@@ -10,7 +10,7 @@ import com.examly.springapp.repository.CommentRepository;
 public interface CommentService {
     List<Comment> getAllComments();
     Comment getCommentById(int id);
-
+    Comment getAllComments(Comment comment);
 
     
 }

@@ -20,5 +20,8 @@ public class CommentServiceImpl implements CommentService  {
     public Comment getCommentById(int id) {
         return commentRepository.findById(id).orElse(null);
     }
+    public Comment getAllComments(Comment comment){
+        return commentRepository.save(comment);
+    }
    
 }

@@ -17,6 +17,14 @@ public class TaskAssignmentController {
 
     @Autowired
     private TaskAssignmentService taskAssignmentService;
+    @PostMapping
+    public ResponseEntity<TaskAssignment> createAssignment(@RequestBody TaskAssignment assi){
+    TaskAssignment assig=taskAssignmentService.creTaskAssignment(assi);
+    if (assig==null) return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+    return new ResponseEntity<>(assig,HttpStatus.CREATED);
+    }
+
+  
 
     
 
